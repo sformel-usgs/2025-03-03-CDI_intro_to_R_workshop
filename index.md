@@ -4,17 +4,17 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "United States Geological Survey"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "null"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: null      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "US"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
-latitude: "null"        # decimal latitude of workshop venue (use https://www.latlong.net/)
-longitude: "null"       # decimal longitude of the workshop venue (use https://www.latlong.net)
+latitude: null        # decimal latitude of workshop venue (use https://www.latlong.net/)
+longitude: null       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "March 3-25, 2025"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "11:00 am - 3:00 pm EST (5:00 pm - 9:00 pm UTC)"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2025-03-03      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2025-03-25        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Stephen Formel", "Saira Haider"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Matthew Neilson,", "Lee Stanish", "Jessica Stanton", "Christopher Tong", "Lara Mitchell", "Olivia Pearlman"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+helper: ["Matthew Neilson", "Lee Stanish", "Jessica Stanton", "Christopher Tong", "Lara Mitchell", "Olivia Pearlman"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["sformel@usgs.gov","gdonovan@usgs.gov", "lcolasuonno@usgs.gov"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://doimspp-my.sharepoint.com/:w:/g/personal/sformel_usgs_gov/ER8GDyNIdUlCuNcK9GmzSfsBSfjsZPgeyCfXtqeXmfHZkg?e=r8oP2u # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
