@@ -3,8 +3,9 @@ layout: page
 title: Installation Instructions
 permalink: /install_instructions/index.html
 tools:
-  - editor
-  - git
+  #- editor
+  #- git
+  - USGS_setup
   - openrefine
   - python
   - r
