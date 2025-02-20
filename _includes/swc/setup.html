@@ -3,9 +3,14 @@
 {% include warning-curriculum.html %}
 {% endunless %}
 
+{% include install_instructions/USGS_setup.html %}
 {% include install_instructions/shell.html %}
-{% include install_instructions/git.html %}
-{% include install_instructions/editor.html %}
+
+{% comment %}
+Excluded for this workshop
+	{% include install_instructions/git.html %}
+	{% include install_instructions/editor.html %}
+{% endcomment %}
 
 {% if site.flavor == "r" %}
 {% include install_instructions/r.html %}
